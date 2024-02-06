@@ -39,7 +39,8 @@ To extract the zip file, use the following command in the terminal:
 
 # Test Images
 I have downloaded 5 diffrent classes of images from the internet to test the model. The images are as follows:
-``` Test
+``` 
+    Test_Images
         - Lion
         - Cheetah
         - Jaguar

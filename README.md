@@ -1,9 +1,6 @@
 <p align="center">
   <img width="500" height="500" src="https://github.com/Sathvik-Chowdary-Veerapaneni/Image_Classification_101/blob/main/Test_Result/download.png">
-</p>
-
-<p align="left">
-    <img width="500" height="500" src="https://github.com/Sathvik-Chowdary-Veerapaneni/Image_Classification_101/blob/main/Test_Result/download.png">
+  <img width="500" height="500" src="https://github.com/Sathvik-Chowdary-Veerapaneni/Image_Classification_101/blob/main/Test_Result/output.png">
 </p>
 
 # Image_Classification_101

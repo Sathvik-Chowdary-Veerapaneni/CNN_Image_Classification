@@ -1,16 +1,13 @@
 # Image_Classification_101
-Image_Classification Model that classifies between dog and cat.
+This project aims to build a multi-classification image model for practice and hands-on experience.
 
-- Setting up Mac GPU usage to use the Apples GPU for training the model.
-- For both tesnorflow and pytorch.
-- using this article , https://www.linkedin.com/pulse/how-use-gpu-tensorflow-pytorch-libraries-macbook-pro-m2apple-kashyap/
+## Setting up Mac GPU usage
 
-If you got any error while installing virtual env, here the solution,
-from stackoverflow, https://stackoverflow.com/questions/31133050/virtualenv-command-not-found
-"So, to solve the issue, do pip uninstall virtualenv and then reinstall it with sudo pip install virtualenv (or install as root)"
+To utilize the Apple GPU for training the model with TensorFlow and PyTorch, follow the steps mentioned in this article: [How to Use GPU with TensorFlow and PyTorch Libraries on MacBook Pro M2Apple](https://www.linkedin.com/pulse/how-use-gpu-tensorflow-pytorch-libraries-macbook-pro-m2apple-kashyap/)
 
-check with codes using this article to ensure wether the installations weree successful or not,
-https://medium.com/bluetuple-ai/how-to-enable-gpu-support-for-tensorflow-or-pytorch-on-macos-4aaaad057e74
+If you encounter any errors while installing virtualenv, you can refer to this solution from Stack Overflow: [Virtualenv Command Not Found](https://stackoverflow.com/questions/31133050/virtualenv-command-not-found)
+
+To verify the successful installation, you can check the codes provided in this article: [How to Enable GPU Support for TensorFlow or PyTorch on macOS](https://medium.com/bluetuple-ai/how-to-enable-gpu-support-for-tensorflow-or-pytorch-on-macos-4aaaad057e74)
 
 # Steps to setup the Kaggle API to download dataset directly from kaggle to Jupyer Notebook
 - First, you need to create a kaggle account and then go to your account and click on "Create New API Token" button. This will download a file called kaggle.json.
@@ -28,13 +25,13 @@ chmod 600 ~/.kaggle/kaggle.json
 ```
 - Now, you should be able to use the kaggle API to download datasets directly from kaggle to your Jupyter Notebook.
 
-Now load the dataset using the following code:
-```python
-bash or zsh terminal : kaggle datasets download -d vishweshsalodkar/wild-animals
+Now download the dataset using the following code in the terminal:
 ```
-unzip file_name.zip , it will extract the file to the current directory.
+    kaggle datasets download -d vishweshsalodkar/wild-animals
+```
 
+To extract the zip file, use the following command in the terminal:
+``` 
+    unzip file_name.zip 
 
-Every project has to be purposeful, so here is the purpose of this project:
-- I would like to identify a tiger from the images.
-- A single image classifcation model that can classify wetheer the image is a tiger or not.
+```

@@ -9,8 +9,8 @@ If you encounter any errors while installing virtualenv, you can refer to this s
 
 To verify the successful installation, you can check the codes provided in this article: [How to Enable GPU Support for TensorFlow or PyTorch on macOS](https://medium.com/bluetuple-ai/how-to-enable-gpu-support-for-tensorflow-or-pytorch-on-macos-4aaaad057e74)
 
-# Steps to setup the Kaggle API to download dataset directly from kaggle to Jupyer Notebook
-- First, you need to create a kaggle account and then go to your account and click on "Create New API Token" button. This will download a file called kaggle.json.
+## Steps to setup the Kaggle API to download dataset directly from kaggle to Project Terminal
+- First, you need to create a kaggle account -> your account -> "Create New API Token" -> download's a file kaggle.json.
 - Then, you need to move this file to the .kaggle directory in your home directory. If this directory does not exist, you can create it by running the following command in your terminal:
 ```bash
 mkdir ~/.kaggle

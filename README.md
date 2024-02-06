@@ -1,5 +1,6 @@
-![Image Alt text](https://github.com/Sathvik-Chowdary-Veerapaneni/Image_Classification_101/blob/main/Test_Result/download.png "Optional title"))
-
+<p align="center">
+  <img width="500" height="500" src="https://github.com/Sathvik-Chowdary-Veerapaneni/Image_Classification_101/blob/main/Test_Result/download.png">
+</p>
 
 # Image_Classification_101
 This project aims to build a multi-classification image model for practice and hands-on experience.

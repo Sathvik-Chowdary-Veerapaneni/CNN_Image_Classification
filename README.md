@@ -54,3 +54,5 @@ I have downloaded 5 diffrent classes of images from the internet to test the mod
         - Tiger
         - Leopard
 ```
+
+[Posted on portfolio](https://sathvik-chowdary-veerapaneni.notion.site/Multi-Image-Classification-f1991b87f83a4a6f92973f9180d4f708)
